@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header id="remove" class="header">
+            <button onclick="appear()" class="menu-icon-container">
+                <span class="material-symbols-outlined menu">
+                    menu
+                </span>
+            </button>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="new-images/quix-logos_transparent(1).png">
+                </a>
+            </div>
+        </header>
+        <div id="disappear" class="hide-section-container">
+            <div class="hide-section">
+                <button id="disappear-button" onclick="disappear()" class="close-icon-container">
+                    <span class="material-symbols-outlined close">
+                        close
+                    </span>
+                </button>
+                <div class="hide-section-image-container">
+                    <a href="index.html">
+                        <img src="new-images/quix-logos_transparent(1).png">
+                    </a>
+                </div>
+                <div class="close-links">
+                    <div class="hide-section-links">
+                        <p><a style="font-size: 4vw;" id="resources-link" href="resources.html">Resources</a></p>
+                        <a href="resources.html">
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hide-section-links">
+                        <button id="courseActionButton-main" onclick="courseAction()">
+                            Courses
+                        </button>
+                        <button id="courseActionButton2-main" onclick="courseActionClose()">
+                            Courses
+                        </button>
+                        <button id="courseActionButton" onclick="courseAction()">
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </button>
+                        <button id="courseActionButtonDown" onclick="courseActionClose()">
+                            <span class="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </button>
+                    </div>
+                    <div id="course-vid1" class="hide-section-links course">
+                        <a style="font-size: 4vw;" href="accounting.html" id="accounting-link">Accounting</a>
+                        <a href="accounting.html">
+                            <span class="material-symbols-outlined" style="margin-top: 20px;">
+                                chevron_right
+                            </span>
+                        </a>
+                    </div>
+                    <div id="course-vid2" class="hide-section-links course">
+                        <a style="font-size: 4vw;" href="statistics.html" id="statistics-link">Statistics</a>
+                        <a href="statistics.html">
+                            <span class="material-symbols-outlined" style="margin-top: 20px;">
+                                chevron_right
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hide-section-links">
+                        <p style="font-size: 4vw;">FAQs</p>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main id="content" class="main">
+            <div class="info-sec-1">
+                <img src="new-images/desola-lanre-ologun-7d4LREDSPyQ-unsplash (2).jpg">
+                <h3>Finish strong this semester with a bang!</h3>
+            </div>
+            <div class="info-sec-2">
+                <p>Access course specific content, materials, and resources.</p>
+                <a>learn more</a>
+            </div>
+            <div class="banner">
+                <img src="new-images/learn-faster-banner.png">
+            </div>
+            <div class="info-sec-3">
+                <h4>Here for every moment</h4>
+                <div class="homework-help">
+                    <img src="new-images/homework-help-4.png">
+                    <h4>Homework help</h4>
+                    <p>Step-by-step explanations, expert Q&A sessions, and additional resources</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="exam-prep-and-practice">
+                    <img src="new-images/exam-prep-and-practice.png">
+                    <h4>Exam prep & practice</h4>
+                    <p>Discover areas of weakness and enhance your test-taking abilities with practice exams</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="understand-a-topic">
+                    <img src="new-images/understand-a-topic.png">
+                    <h4>Understand a topic</h4>
+                    <p>Simplify the toughest concepts with digestible topic breakdowns & videos</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="info-sec-4">
+                <p>Sign up for free!</p>
+                <a>Sign Up</a>
+            </div>
+            <div class="footer">
+                <a>About QUIX</a>
+                <a>Jobs</a>
+                <a>Give Us Feedback</a>
+                <!-- <a>Customer Service</a> -->
+            </div>
+        </main>
+    </div>
+</body>
+</html>

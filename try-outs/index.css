@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    padding: 10px;
+    border-bottom: 1px solid #F4A79F;
+    width: 100%;
+    height: 12%;
+    background: white;
+}
+
+.menu-icon-container {
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 25px;
+}
+
+span.menu {
+    font-size: 7vw;
+}
+
+.logo-container {
+    width: 35%;
+    height: auto;
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.hide-section-container {
+    width: 100%;
+    height: 726px;
+    display: none;
+}
+
+.hide-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    border-bottom: 1px solid #F4A79F;
+    width: 100%;
+    height: 12%;
+}
+
+.close-icon-container {
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 25px;
+}
+
+span.close {
+    font-size: 7vw;
+}
+
+.hide-section-image-container {
+    width: 35%;
+    height: auto;
+}
+
+.hide-section-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.close-links {
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    width: 100%;
+}
+
+.hide-section-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.hide-section-links #resources-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.hide-section-links #accounting-link {
+    display: block;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.hide-section-links #statistics-link {
+    display: block;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#courseActionButton-main {
+    background: none;
+    border: none;
+    font-size: 4vw;
+}
+
+#courseActionButton2-main {
+    position: absolute;
+    left: 0;
+    background: none;
+    border: none;
+    font-size: 4vw;
+    display: none;
+    padding: 0;
+}
+
+#courseActionButton {
+    background: none;
+    border: none;
+}
+
+#courseActionButtonDown {
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    display: none;
+}
+
+#course-vid1 {
+    display: none;
+}
+
+#course-vid2 {
+    display: none;
+}
+
+/*MAIN SECTION STARTS HERE!!!*/
+
+.main {
+    position: absolute;
+    top: 87px;
+}
+
+
+.info-sec-1 img {
+    width: 100%;
+}
+
+.info-sec-1 h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 9vw;
+    margin-top: 40px;
+}
+
+.info-sec-2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 7vw;
+    background: #F5F5F5;
+    margin-top: 30px;
+}
+
+.info-sec-2 a {
+    font-size: 5vw;
+    display: inline-block;
+    padding: 4px 14px;
+    background: #374674;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info-sec-3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.info-sec-3 h4 {
+    font-size: 9vw;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-sec-3 p {
+    font-size: 5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-sec-3 a {
+    font-size: 4vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.homework-help {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.homework-help img {
+    width: 45%;
+}
+
+.exam-prep-and-practice {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.exam-prep-and-practice img {
+    width: 45%;
+}
+
+.understand-a-topic {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.understand-a-topic img {
+    width: 45%;
+}
+
+.info-sec-4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info-sec-4 p {
+    font-size: 8vw;
+}
+
+.info-sec-4 a {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 14px;
+    background: #374674;
+    border-radius: 15px;
+    font-size: 5vw;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #F5F5F5;
+}
+
+.footer a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
